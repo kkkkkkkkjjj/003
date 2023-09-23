@@ -3,18 +3,11 @@
 
 int main(void)
 { 
-  char a;
-  int i;
- 
- printf("enter a character:\n");
- scanf("%c", &a);
-
- i = a + "1";
- printf("the next character of %c(%i) is ",a);
- printf("%c(%i)",i);
-
-return 0;
-    
+  int a,b;
+  
+  scanf("%d%d",&a,&b);
+  printf("분자를 입력하세요 :%d\n", a);
+  printf("분모를 입력하세요 :%d\n", b);
+  printf("나누기의 결과는 %f\n", a/b);
+  return 0;
 }
-
-
